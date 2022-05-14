@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.menu-box {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 18px;
+    padding-bottom: 19px;
+}
+
+.menu_left {
+    width: 111px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__logo {
+    height: 38px;
+}
+
+.menu__search {
+    align-self: flex-end;
+    height: 27px;
+}
+
+.menu_right {
+    width: 168px;
+    height: 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
