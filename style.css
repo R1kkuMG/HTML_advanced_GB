@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Lato', sans-serif;
+}
+
 header {
     background-color: black;
 }
@@ -12,7 +16,7 @@ header {
     margin: 0 auto;
 }
 
-.menu-box {
+.menu_box {
     display: flex;
     justify-content: space-between;
     padding-top: 18px;
@@ -41,4 +45,120 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+}
+
+.top {
+    background-color: #F1E4E6;
+    height: 764px;
+}
+
+.top_content {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.top__image {
+    margin-left: -225px;
+}
+
+.top__line {
+    padding-top: 290px;
+    padding-left: 63px;
+}
+
+.top__heading {
+    padding-left: 16px;
+    width: 405px;
+    height: 93px;
+    padding-top: 290px;
+    padding-bottom: 381px;
+}
+
+.top-text-main {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    color: #222222;
+}
+
+.top__heading2 {
+    display: flex;
+}
+
+.top-text-second {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #222222;
+}
+
+.top-text-third {
+    padding-left: 9px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #F16D7F;
+}
+
+.upper__card {
+    margin-top: 65px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card {
+    width: 360px;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.lower__card {
+    margin-bottom: 96px;
+    height: 180px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.text__mini {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.text__maxi {
+    font-style: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #F16D7F;
+}
+
+.text__mini2 {
+    position: absolute;
+    top: 105px;
+}
+
+.text__maxi2 {
+    position: absolute;
+    bottom: 105px;
+}
+
+.text__mini3 {
+    position: absolute;
+    top: 65px;
+}
+
+.text__maxi3 {
+    position: absolute;
+    bottom: 63px;
 }
