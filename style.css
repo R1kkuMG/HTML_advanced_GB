@@ -16,11 +16,11 @@ header {
     margin: 0 auto;
 }
 
-.menu_box {
+.menu {
     display: flex;
     justify-content: space-between;
-    padding-top: 18px;
     padding-bottom: 19px;
+    padding-top: 18px;
 }
 
 .menu_left {
@@ -47,31 +47,46 @@ header {
     align-items: flex-end;
 }
 
+.menu__link {
+    position: relative;
+    display: block;
+}
+
 .mega_box {
-    box-shadow:#000000;
-    padding-top: 37px;
+    width: 232px;
+    box-shadow: -2px 3px 20px -13px #000000;
     position: absolute;
     background-color: #fff;
-    margin-top: 20px;
+    display: none;
+}
+
+.close {
+    padding-left: 203px;
+    display: block;
+    padding-top: 16px;
 }
 
 .mega__heading {
     font-style: normal;
-font-size: 14px;
-line-height: 17px;
-color: #000000;
-padding-bottom: 24px;
-padding-right: 143px;
-padding-left: 34px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    padding-bottom: 15px;
+    padding-right: 143px;
+    padding-left: 34px;
+    text-transform: uppercase;
+    padding-top: 9px;
 }
 
 .menu__heading {
     font-weight: 400;
-font-size: 14px;
-line-height: 17px;
-color: #F16D7F;
-padding-bottom: 6px;
-padding-left: 34px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+    padding-bottom: 1px;
+    padding-left: 34px;
+    padding-top: 9px;
+    text-transform: uppercase;
 }
 
 .mega__link {
@@ -87,6 +102,10 @@ padding: 11px 54px;
 
 .mega__link:hover {
     color:#F16D7F;
+}
+
+.menu__link:hover .mega_box {
+    display: block;
 }
 
 .banner {
