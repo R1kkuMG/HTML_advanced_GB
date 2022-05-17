@@ -47,34 +47,72 @@ header {
     align-items: flex-end;
 }
 
-.top {
+.mega_box {
+    box-shadow:#000000;
+    padding-top: 37px;
+    position: absolute;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.mega__heading {
+    font-style: normal;
+font-size: 14px;
+line-height: 17px;
+color: #000000;
+padding-bottom: 24px;
+padding-right: 143px;
+padding-left: 34px;
+}
+
+.menu__heading {
+    font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: #F16D7F;
+padding-bottom: 6px;
+padding-left: 34px;
+}
+
+.mega__link {
+    display: block;
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: #6F6E6E;
+text-decoration: none;
+padding: 11px 54px;
+}
+
+.mega__link:hover {
+    color:#F16D7F;
+}
+
+.banner {
     background-color: #F1E4E6;
     height: 764px;
 }
 
-.top_content {
+.banner_block {
+    height: 100%;
+    background: url(/img/topman.png) -225px;
+    background-repeat: no-repeat;
+}
+
+.banner__text {
+    padding-top: 290px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: end;
+    align-items: center;
+    padding-right: 102px;
 }
 
-.top__image {
-    margin-left: -225px;
+.banner__line {
+    padding-right: 16px;
 }
 
-.top__line {
-    padding-top: 290px;
-    padding-left: 63px;
-}
-
-.top__heading {
-    padding-left: 16px;
-    width: 405px;
-    height: 93px;
-    padding-top: 290px;
-    padding-bottom: 381px;
-}
-
-.top-text-main {
+.the__brand {
     font-style: normal;
     font-weight: 900;
     font-size: 48px;
@@ -82,11 +120,7 @@ header {
     color: #222222;
 }
 
-.top__heading2 {
-    display: flex;
-}
-
-.top-text-second {
+.text__fashion {
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -94,7 +128,7 @@ header {
     color: #222222;
 }
 
-.top-text-third {
+.span__fashion {
     padding-left: 9px;
     font-style: normal;
     font-weight: 700;
@@ -103,39 +137,55 @@ header {
     color: #F16D7F;
 }
 
-.upper__card {
-    margin-top: 65px;
-    margin-bottom: 30px;
-    display: flex;
-    justify-content: space-between;
-
-}
-
 .card {
     width: 360px;
     height: 260px;
     display: flex;
     justify-content: center;
-    position: relative;
 }
 
-.lower__card {
+.card__link {
+    display: block;
+    text-decoration: none;
+}
+
+.upper__cards {
+    margin-top: 65px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__women {
+    background-image: url(/img/card1.jpg);
+}
+
+.card__men {
+    background-image: url(/img/card2.jpg);
+}
+
+.card__kids {
+    background-image: url(/img/card3.jpg);  
+}
+
+.acces__card {
     margin-bottom: 96px;
     height: 180px;
-    position: relative;
     display: flex;
     justify-content: center;
+    background-image: url(/img/card4.jpg); 
 }
 
-.text__mini {
+.text__1 {
     font-style: normal;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
     color: #FFFFFF;
+    padding-top: 105px;
 }
 
-.text__maxi {
+.text__2 {
     font-style: normal;
     font-size: 24px;
     line-height: 29px;
@@ -143,22 +193,6 @@ header {
     color: #F16D7F;
 }
 
-.text__mini2 {
-    position: absolute;
-    top: 105px;
-}
-
-.text__maxi2 {
-    position: absolute;
-    bottom: 105px;
-}
-
-.text__mini3 {
-    position: absolute;
-    top: 65px;
-}
-
-.text__maxi3 {
-    position: absolute;
-    bottom: 63px;
+.acces {
+    padding-top: 65px;
 }
