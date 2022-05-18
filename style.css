@@ -1,217 +1,254 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 header {
-    background-color: black;
+  background-color: black;
 }
 
 .container {
-    width: 1140px;
-    margin: 0 auto;
+  width: 1140px;
+  margin: 0 auto;
 }
 
 .menu {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 19px;
-    padding-top: 18px;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .menu_left {
-    width: 111px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 111px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .menu__logo {
-    height: 38px;
+  padding-top: 18px;
+  padding-bottom: 18px;
 }
 
 .menu__search {
-    align-self: flex-end;
-    height: 27px;
+  align-self: flex-end;
+  padding-top: 18px;
+  padding-bottom: 18px;
 }
 
 .menu_right {
-    width: 168px;
-    height: 38px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+  width: 168px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 .menu__link {
-    position: relative;
-    display: block;
+  position: relative;
+  display: block;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.menu__profile {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.menu__basket {
+  padding-top: 18px;
+  padding-bottom: 18px;
 }
 
 .mega_box {
-    width: 232px;
-    box-shadow: -2px 3px 20px -13px #000000;
-    position: absolute;
-    background-color: #fff;
-    display: none;
+  width: 232px;
+  height: 764px;
+  box-shadow: -2px 3px 20px -13px #000000;
+  position: absolute;
+  background-color: #fff;
+  display: none;
+  margin-top: 18px;
 }
 
 .close {
-    padding-left: 203px;
-    display: block;
-    padding-top: 16px;
+  padding-left: 203px;
+  display: block;
+  padding-top: 16px;
 }
 
 .mega__heading {
-    font-style: normal;
-    font-size: 14px;
-    line-height: 17px;
-    color: #000000;
-    padding-bottom: 15px;
-    padding-right: 143px;
-    padding-left: 34px;
-    text-transform: uppercase;
-    padding-top: 9px;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  padding-bottom: 15px;
+  padding-right: 143px;
+  padding-left: 34px;
+  text-transform: uppercase;
+  padding-top: 9px;
 }
 
 .menu__heading {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    color: #F16D7F;
-    padding-bottom: 1px;
-    padding-left: 34px;
-    padding-top: 9px;
-    text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #f16d7f;
+  padding-bottom: 1px;
+  padding-left: 34px;
+  padding-top: 9px;
+  text-transform: uppercase;
 }
 
 .mega__link {
-    display: block;
-    font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 17px;
-color: #6F6E6E;
-text-decoration: none;
-padding: 11px 54px;
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6f6e6e;
+  text-decoration: none;
+  padding: 11px 54px;
 }
 
 .mega__link:hover {
-    color:#F16D7F;
+  color: #f16d7f;
 }
 
 .menu__link:hover .mega_box {
-    display: block;
+  display: block;
 }
 
 .banner {
-    background-color: #F1E4E6;
-    height: 764px;
+  background-color: #f1e4e6;
+  height: 764px;
 }
 
 .banner_block {
-    height: 100%;
-    background: url(/img/topman.png) -225px;
-    background-repeat: no-repeat;
+  height: 100%;
+  background: url(/img/topman.png) -225px;
+  background-repeat: no-repeat;
 }
 
 .banner__text {
-    padding-top: 290px;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    padding-right: 102px;
+  padding-top: 290px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 102px;
 }
 
 .banner__line {
-    padding-right: 16px;
+  padding-right: 16px;
 }
 
 .the__brand {
-    font-style: normal;
-    font-weight: 900;
-    font-size: 48px;
-    line-height: 58px;
-    color: #222222;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px;
+  color: #222222;
 }
 
 .text__fashion {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 38px;
-    color: #222222;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #222222;
 }
 
 .span__fashion {
-    padding-left: 9px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 38px;
-    color: #F16D7F;
+  padding-left: 9px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #f16d7f;
 }
 
 .card {
-    width: 360px;
-    height: 260px;
-    display: flex;
-    justify-content: center;
+  width: 360px;
+  height: 260px;
+  display: flex;
+  justify-content: center;
 }
 
 .card__link {
-    display: block;
-    text-decoration: none;
+  display: block;
+  text-decoration: none;
+  padding-left: 103px;
+  padding-right: 103px;
+}
+
+.men {
+  padding-left: 125px;
+  padding-right: 125px;
+}
+
+.kids {
+  padding-left: 123px;
+  padding-right: 123px;
 }
 
 .upper__cards {
-    margin-top: 65px;
-    margin-bottom: 30px;
-    display: flex;
-    justify-content: space-between;
+  margin-top: 65px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .card__women {
-    background-image: url(/img/card1.jpg);
+  background-image: url(/img/card1.jpg);
 }
 
 .card__men {
-    background-image: url(/img/card2.jpg);
+  background-image: url(/img/card2.jpg);
 }
 
 .card__kids {
-    background-image: url(/img/card3.jpg);  
+  background-image: url(/img/card3.jpg);
 }
 
 .acces__card {
-    margin-bottom: 96px;
-    height: 180px;
-    display: flex;
-    justify-content: center;
-    background-image: url(/img/card4.jpg); 
+  margin-bottom: 96px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  background-image: url(/img/card4.jpg);
 }
 
 .text__1 {
-    font-style: normal;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    color: #FFFFFF;
-    padding-top: 105px;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 105px;
+}
+
+.kids__text {
+  width: 115px;
 }
 
 .text__2 {
-    font-style: normal;
-    font-size: 24px;
-    line-height: 29px;
-    text-align: center;
-    color: #F16D7F;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #f16d7f;
+  padding-top: 1px;
+}
+
+.acces__text {
+  padding-top: 65px;
+  width: 160px;
 }
 
 .acces {
-    padding-top: 65px;
+  padding-left: 725px;
+  padding-right: 725px;
 }
