@@ -129,7 +129,7 @@ header {
 
 .banner_block {
   height: 100%;
-  background: url(/img/topman.png) -225px;
+  background: url(img/topman.png) -225px;
   background-repeat: no-repeat;
 }
 
@@ -202,22 +202,22 @@ header {
 }
 
 .card__women {
-  background-image: url(/img/card1.jpg);
+  background-image: url(img/card1.jpg);
 }
 
 .card__men {
-  background-image: url(/img/card2.jpg);
+  background-image: url(img/card2.jpg);
 }
 
 .card__kids {
-  background-image: url(/img/card3.jpg);
+  background-image: url(img/card3.jpg);
 }
 
 .acces__card {
   height: 180px;
   display: flex;
   justify-content: center;
-  background-image: url(/img/card4.jpg);
+  background-image: url(img/card4.jpg);
 }
 
 .text__1 {
@@ -432,7 +432,7 @@ h4 {
 }
 
 footer {
-  background-image: url(/img/footerbg.jpg);
+  background-image: url(img/footerbg.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
