@@ -619,7 +619,7 @@ footer {
 }
 
 .footer__btn:hover {
-  background-color: #ff6a6a;
+  background-color: #EF5B70;
 }
 
 .footer_bottom {
@@ -1126,5 +1126,153 @@ footer {
 
 .pag__img_r {
   padding-left: 18px;
+}
+
+.registration-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.registration_form {
+  margin-bottom: 96px;
+  margin-top: 31px;
+}
+
+.registration__input {
+  width: 360px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.upper__text {
+  font-weight: 300;
+  font-size: 16px;
+  color: #222222;
+  padding-top: 33px;
+}
+
+.input__txt {
+  font-weight: 300;
+  font-size: 13px;
+  color: #B1B1B1;
+  margin-top: 20px;
+  border: 1px solid #A4A4A4;
+  padding: 13px 0 16px 17px;
+  opacity: 0.5;
+}
+
+.password__info {
+  width: 360px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #B1B1B1;
+  padding: 15px 0 39px 0;
+}
+
+.gender_choice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  padding-top: 31px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+  color: #000000;
+}
+
+.gender__input {
+  cursor: pointer;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.info__gender {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.info__gender p {
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+.registration__button {
+  cursor: pointer;
+  width: 167px;
+  height: 50px;
+  background-color: #f16d7f;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 16px 0 16px 0;
+  border-style: none;
+}
+
+.registration__button:hover {
+  background-color: #EF5B70;
+}
+
+.registration-perks {
+  margin-left: 128px;
+  margin-top: 64px;
+}
+
+.perk_heading {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.perk_text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  padding-top: 22px;
+}
+
+.perk_list {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  padding-top: 21px;
+  padding-left: 28px;
+  list-style: url(img/registration/list.png);
+}
+
+.perk_list li {
+  padding-bottom: 16px;
+}
+
+.perk_list p {
+  padding-left: 23px;
 }
 /*# sourceMappingURL=style.css.map */
