@@ -730,16 +730,15 @@ footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  position: relative;
 }
 
 .product-box {
-  position: absolute;
-  top: 712px;
-  background-color: #fff;
+  -webkit-transform: translateY(-65px);
+          transform: translateY(-65px);
 }
 
 .product_info {
+  background-color: #fff;
   width: 100%;
   border: 1px solid #EAEAEA;
   display: -webkit-box;
@@ -752,6 +751,7 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 128px;
 }
 
 .product__collection {
@@ -925,10 +925,6 @@ footer {
   font-size: 16px;
   color: #F26376;
   padding-left: 23px;
-}
-
-.product-flex {
-  margin-top: 664px;
 }
 
 .pr__featured {
@@ -1272,7 +1268,7 @@ footer {
   padding-bottom: 16px;
 }
 
-.perk_list p {
+.perk_list div {
   padding-left: 23px;
 }
 /*# sourceMappingURL=style.css.map */

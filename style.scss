@@ -637,21 +637,21 @@ footer {
 .central-banner {
     display: flex;
     justify-content: center;
-    position: relative;
 }
 
 .product-box {
-    position: absolute;
-    top: 712px;
-    background-color: $color_white;
+    transform: translateY(-65px);
 }
 
+
 .product_info {
+    background-color: $color_white;
     width: 100%;
     border: 1px solid #EAEAEA;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 128px;
 }
 
 .product__collection {
@@ -794,10 +794,6 @@ footer {
     font-size: 16px;
     color: #F26376;
     padding-left: 23px;
-}
-
-.product-flex {
-    margin-top: 664px;
 }
 
 .pr__featured {
