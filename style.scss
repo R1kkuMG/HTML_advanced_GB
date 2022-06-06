@@ -377,6 +377,35 @@ header {
     width: 100%;
 }
 
+@keyframes sec-btn {
+
+    0%,
+    100% {
+        transform: translateX(0%);
+        transform-origin: 50% 50%;
+    }
+
+    15% {
+        transform: translateX(-30px) rotate(-6deg);
+    }
+
+    30% {
+        transform: translateX(15px) rotate(6deg);
+    }
+
+    45% {
+        transform: translateX(-15px) rotate(-3.6deg);
+    }
+
+    60% {
+        transform: translateX(9px) rotate(2.4deg);
+    }
+
+    75% {
+        transform: translateX(-6px) rotate(-1.2deg);
+    }
+}
+
 .sec-btn {
     font-style: normal;
     width: 212px;
@@ -397,6 +426,7 @@ header {
     background-color: #ff6a6a;
     color: $color_white;
     border: none;
+    animation: sec-btn 1s both;
 }
 
 .advantages {
@@ -506,6 +536,23 @@ footer {
     color: #222224;
 }
 
+@keyframes button__input {
+    0% {
+        letter-spacing: 0.3em;
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.6;
+    }
+
+    100% {
+        letter-spacing: normal;
+        opacity: 1;
+    }
+}
+
+
 .button__input {
     display: flex;
     margin-top: 30px;
@@ -547,6 +594,7 @@ footer {
 
 .footer__btn:hover {
     background-color: #EF5B70;
+    animation: button__input 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 
 .footer_bottom {
@@ -775,8 +823,38 @@ footer {
     padding-bottom: 64px;
 }
 
+@keyframes product-btn {
+
+    0%,
+    100% {
+        transform: translateX(0%);
+        transform-origin: 50% 50%;
+    }
+
+    15% {
+        transform: translateX(-30px) rotate(-6deg);
+    }
+
+    30% {
+        transform: translateX(15px) rotate(6deg);
+    }
+
+    45% {
+        transform: translateX(-15px) rotate(-3.6deg);
+    }
+
+    60% {
+        transform: translateX(9px) rotate(2.4deg);
+    }
+
+    75% {
+        transform: translateX(-6px) rotate(-1.2deg);
+    }
+}
+
 .product-btn:hover {
     box-shadow: 0 0 5px #FF6A6A;
+    animation: product-btn 1s both;
 }
 
 .product-btn {
@@ -1051,6 +1129,35 @@ footer {
     padding-right: 20px;
 }
 
+@keyframes registration__button {
+
+    0%,
+    100% {
+        transform: translateX(0%);
+        transform-origin: 50% 50%;
+    }
+
+    15% {
+        transform: translateX(-30px) rotate(-6deg);
+    }
+
+    30% {
+        transform: translateX(15px) rotate(6deg);
+    }
+
+    45% {
+        transform: translateX(-15px) rotate(-3.6deg);
+    }
+
+    60% {
+        transform: translateX(9px) rotate(2.4deg);
+    }
+
+    75% {
+        transform: translateX(-6px) rotate(-1.2deg);
+    }
+}
+
 .registration__button {
     cursor: pointer;
     width: 167px;
@@ -1068,6 +1175,7 @@ footer {
 
 .registration__button:hover {
     background-color: #EF5B70;
+    animation: registration__button 1s both;
 }
 
 .registration-perks {
