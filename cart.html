@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Main:Brand</title>
+    <title>Shopping cart: Brand</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,7 +19,7 @@
   </head>
   <body>
     <header>
-      <nav class="navigation">
+      <nav>
         <div class="container">
           <div class="menu">
             <div class="menu_left">
@@ -44,33 +44,37 @@
                   /></a>
                   <h2 class="mega__heading">menu</h2>
                   <h3 class="menu__heading">man</h3>
-                  <a class="mega__link" href="">Accessories</a>
-                  <a class="mega__link" href="">Bags</a>
-                  <a class="mega__link" href="">Denim</a>
-                  <a class="mega__link" href="">T-Shirts</a>
+                  <a class="mega__link" href="catalog.html">Accessories</a>
+                  <a class="mega__link" href="catalog.html">Bags</a>
+                  <a class="mega__link" href="catalog.html">Denim</a>
+                  <a class="mega__link" href="catalog.html">T-Shirts</a>
 
                   <h3 class="menu__heading">woman</h3>
-                  <a class="mega__link" href="">Accessories</a>
-                  <a class="mega__link" href="">Jackets & Coats</a>
-                  <a class="mega__link" href="">Polos</a>
-                  <a class="mega__link" href="">T-Shirts</a>
-                  <a class="mega__link" href="">Shirts</a>
+                  <a class="mega__link" href="catalog.html">Accessories</a>
+                  <a class="mega__link" href="catalog.html">Jackets & Coats</a>
+                  <a class="mega__link" href="catalog.html">Polos</a>
+                  <a class="mega__link" href="catalog.html">T-Shirts</a>
+                  <a class="mega__link" href="catalog.html">Shirts</a>
 
                   <h3 class="menu__heading">kids</h3>
-                  <a class="mega__link" href="">Accessories</a>
-                  <a class="mega__link" href="">Jackets & Coats</a>
-                  <a class="mega__link" href="">Polos</a>
-                  <a class="mega__link" href="">T-Shirts</a>
-                  <a class="mega__link" href="">Shirts</a>
-                  <a class="mega__link" href="">Bags</a>
+                  <a class="mega__link" href="catalog.html">Accessories</a>
+                  <a class="mega__link" href="catalog.html">Jackets & Coats</a>
+                  <a class="mega__link" href="catalog.html">Polos</a>
+                  <a class="mega__link" href="catalog.html">T-Shirts</a>
+                  <a class="mega__link" href="catalog.html">Shirts</a>
+                  <a class="mega__link" href="catalog.html">Bags</a>
                 </div>
               </div>
 
               <div class="menu__profile">
-                <a href="#"><img src="img/profile.svg" alt="profile" /></a>
+                <a href="registration.html"
+                  ><img src="img/profile.svg" alt="profile"
+                /></a>
               </div>
               <div class="menu__basket">
-                <a href="#"><img src="img/basket.png" alt="basket" /></a>
+                <a href="cart.html"
+                  ><img src="img/basket.png" alt="basket"
+                /></a>
               </div>
             </div>
           </div>
@@ -78,18 +82,20 @@
       </nav>
     </header>
 
-    <div class="arrivals">
+    <section class="arrivals">
       <div class="container">
         <div class="arrivals-item">
           <h2 class="arrivals_text">shopping cart</h2>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="shopping-cart container">
+    <section class="shopping-cart container">
       <div class="left-cart">
         <div class="item-cart">
-          <img src="img/cart/sh_cart1.png" alt="cart1" />
+          <a href="product.html"
+            ><img src="img/cart/sh_cart1.png" alt="cart1"
+          /></a>
           <div class="item-info">
             <div class="cart-top-info">
               <h5 class="cart-heading">
@@ -97,7 +103,7 @@
                 T-SHIRT
               </h5>
               <a class="cart-close" href="#"
-                ><img src="img/cart/cart_close.png" alt="close"
+                ><img src="img/cart/cart_close_h.png" alt="close"
               /></a>
             </div>
 
@@ -106,14 +112,25 @@
                 <li>Price: <span class="cart-price">$300</span></li>
                 <li>Color: <span class="detail-info">Red</span></li>
                 <li>Size: <span class="detail-info">Xl</span></li>
-                <li>Quantity: <input class="detail-input" type="text" /></li>
+                <li>
+                  Quantity:
+                  <input
+                    class="detail-input"
+                    type="number"
+                    value="1"
+                    min="1"
+                    max="10"
+                  />
+                </li>
               </ul>
             </div>
           </div>
         </div>
 
         <div class="item-cart">
-          <img src="img/cart/sh_cart2.png" alt="cart1" />
+          <a href="product.html"
+            ><img src="img/cart/sh_cart2.png" alt="cart1"
+          /></a>
           <div class="item-info">
             <div class="cart-top-info">
               <h5 class="cart-heading">
@@ -121,7 +138,7 @@
                 T-SHIRT
               </h5>
               <a class="cart-close" href="#"
-                ><img src="img/cart/cart_close.png" alt="close"
+                ><img src="img/cart/cart_close_h.png" alt="close"
               /></a>
             </div>
 
@@ -130,7 +147,16 @@
                 <li>Price: <span class="cart-price">$300</span></li>
                 <li>Color: <span class="detail-info">Red</span></li>
                 <li>Size: <span class="detail-info">Xl</span></li>
-                <li>Quantity: <input class="detail-input" type="text" /></li>
+                <li>
+                  Quantity:
+                  <input
+                    class="detail-input"
+                    type="number"
+                    value="1"
+                    min="1"
+                    max="10"
+                  />
+                </li>
               </ul>
             </div>
           </div>
@@ -138,21 +164,21 @@
 
         <div class="cart-buttons">
           <a href="#">clear shopping cart</a>
-          <a href="#">continue shopping</a>
+          <a href="catalog.html">continue shopping</a>
         </div>
       </div>
 
       <div class="right-form">
-        <div class="form-input">
+        <form class="form-input">
           <p class="form-heading">shipping address</p>
           <input class="cart-input" type="text" placeholder="City" />
           <input class="cart-input" type="text" placeholder="State" />
           <input class="cart-input" type="text" placeholder="Postcode / Zip" />
-        </div>
+        </form>
         <div class="form-quote">
           <a href="#">get a quote</a>
         </div>
-        <div class="form-total">
+        <form class="form-total">
           <p class="sub-total">
             sub total &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp $900
           </p>
@@ -163,20 +189,20 @@
           <div class="total-btn">
             <a href="#">proceed to checkout</a>
           </div>
-        </div>
+        </form>
       </div>
-    </div>
+    </section>
 
     <footer>
       <div class="container">
-        <div class="footer_top">
-          <div class="footer__left">
+        <section class="footer_top">
+          <figure class="footer__left">
             <img class="footer__image" src="img/feedback.png" alt="feedback" />
             <p class="footer__text">
-              “Vestibulum quis porttitor dui! Quisque viverra nunc mi,
-              <span class="footer__text2">a pulvinar purus condimentum</span> “
+              "Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+              <span class="footer__text2">a pulvinar purus condimentum.</span>"
             </p>
-          </div>
+          </figure>
 
           <div class="footer__right">
             <p class="right__heading">SUBSCRIBE</p>
@@ -192,15 +218,16 @@
               <a href="#" class="footer__btn">Subscribe</a>
             </div>
           </div>
-        </div>
+        </section>
       </div>
-      <div class="footer_bottom">
+
+      <section class="footer_bottom">
         <div class="container">
           <div class="bottom__content">
             <div class="bottom__left">
               <p class="bottom__text">© 2021 Brand All Rights Reserved.</p>
             </div>
-            <div class="bottom__right">
+            <nav class="bottom__right">
               <a class="bottom__link" href="#"
                 ><i class="fa fa-brands fa-facebook"></i
               ></a>
@@ -213,10 +240,10 @@
               <a class="bottom__link" href="#"
                 ><i class="fa fa-brands fa-twitter"></i
               ></a>
-            </div>
+            </nav>
           </div>
         </div>
-      </div>
+      </section>
     </footer>
   </body>
 </html>

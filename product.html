@@ -44,33 +44,37 @@
                   /></a>
                   <h2 class="mega__heading">menu</h2>
                   <h3 class="menu__heading">man</h3>
-                  <a class="mega__link" href="">Accessories</a>
-                  <a class="mega__link" href="">Bags</a>
-                  <a class="mega__link" href="">Denim</a>
-                  <a class="mega__link" href="">T-Shirts</a>
+                  <a class="mega__link" href="catalog.html">Accessories</a>
+                  <a class="mega__link" href="catalog.html">Bags</a>
+                  <a class="mega__link" href="catalog.html">Denim</a>
+                  <a class="mega__link" href="catalog.html">T-Shirts</a>
 
                   <h3 class="menu__heading">woman</h3>
-                  <a class="mega__link" href="">Accessories</a>
-                  <a class="mega__link" href="">Jackets & Coats</a>
-                  <a class="mega__link" href="">Polos</a>
-                  <a class="mega__link" href="">T-Shirts</a>
-                  <a class="mega__link" href="">Shirts</a>
+                  <a class="mega__link" href="catalog.html">Accessories</a>
+                  <a class="mega__link" href="catalog.html">Jackets & Coats</a>
+                  <a class="mega__link" href="catalog.html">Polos</a>
+                  <a class="mega__link" href="catalog.html">T-Shirts</a>
+                  <a class="mega__link" href="catalog.html">Shirts</a>
 
                   <h3 class="menu__heading">kids</h3>
-                  <a class="mega__link" href="">Accessories</a>
-                  <a class="mega__link" href="">Jackets & Coats</a>
-                  <a class="mega__link" href="">Polos</a>
-                  <a class="mega__link" href="">T-Shirts</a>
-                  <a class="mega__link" href="">Shirts</a>
-                  <a class="mega__link" href="">Bags</a>
+                  <a class="mega__link" href="catalog.html">Accessories</a>
+                  <a class="mega__link" href="catalog.html">Jackets & Coats</a>
+                  <a class="mega__link" href="catalog.html">Polos</a>
+                  <a class="mega__link" href="catalog.html">T-Shirts</a>
+                  <a class="mega__link" href="catalog.html">Shirts</a>
+                  <a class="mega__link" href="catalog.html">Bags</a>
                 </div>
               </div>
 
               <div class="menu__profile">
-                <a href="#"><img src="img/profile.svg" alt="profile" /></a>
+                <a href="registration.html"
+                  ><img src="img/profile.svg" alt="profile"
+                /></a>
               </div>
               <div class="menu__basket">
-                <a href="#"><img src="img/basket.png" alt="basket" /></a>
+                <a href="cart.html"
+                  ><img src="img/basket.png" alt="basket"
+                /></a>
               </div>
             </div>
           </div>
@@ -78,33 +82,48 @@
       </nav>
     </header>
 
-    <div class="arrivals">
+    <section class="arrivals">
       <div class="container">
         <div class="arrivals-item">
           <h2 class="arrivals_text">new arrivals</h2>
-          <div class="arrivals_menu">
+          <nav class="arrivals_menu">
             <a class="arrivals__link" href="index.html">home</a>
             <span class="arrivals__span">/</span>
-            <a class="arrivals__link" href="#">men</a>
+            <a class="arrivals__link" href="catalog.html">men</a>
             <span class="arrivals__span"> / </span>
-            <a class="arrivals__link" href="#">new arrivals</a>
-          </div>
+            <span class="arrivals__span">new arrivals</span>
+          </nav>
         </div>
       </div>
-    </div>
+    </section>
 
     <div class="central-banner">
       <div class="central_image">
-        <img src="img/product/bgi.png" alt="image" />
+        <img src="img/product/product_girl.png" alt="image" />
       </div>
     </div>
 
-    <section class="product-box">
+    <div class="sliders">
+      <a href="#"
+        ><img
+          class="slider_left"
+          src="img/product/slider_hover.png"
+          alt="slider"
+      /></a>
+      <a href="#"
+        ><img
+          class="slider_right"
+          src="img/product/slider_hover.png"
+          alt="slider"
+      /></a>
+    </div>
+
+    <div class="product-box">
       <div class="container">
-        <div class="product_info">
+        <article class="product_info">
           <h4 class="product__collection">women collection</h4>
           <img src="img/product/product_line.png" alt="line" />
-          <p class="chic__text">moschino cheap and chic</p>
+          <h3 class="chic__text">moschino cheap and chic</h3>
           <p class="product__text">
             Compellingly actualize fully researched processes before proactive
             outsourcing. Progressively syndicate collaborative architectures
@@ -114,74 +133,92 @@
           <p class="product__price">$561</p>
           <img src="img/product/bigproduct_line.png" alt="" />
 
-          <div class="param__links">
-            <a class="choose__link" href="#">
-              <p class="choose__text">choose color</p>
-              <img src="img/product/Vector.png" alt="menu" />
+          <form class="add-product-form">
+            <div class="param__links">
+              <a class="choose__link" href="#">
+                <p class="choose__text">choose color</p>
+                <img src="img/product/Vector.png" alt="menu" />
+                <div class="color-box">
+                  <label for="black">
+                    <input id="black" type="checkbox" />
+                    <span class="choose__input">black </span>
+                  </label>
 
-              <div class="color-box">
-                <label for="black">
-                  <input id="black" type="checkbox" />
-                  <span class="choose__input">black </span>
-                </label>
+                  <label for="white">
+                    <input id="white" type="checkbox" />
+                    <span class="choose__input">white </span>
+                  </label>
 
-                <label for="white">
-                  <input id="white" type="checkbox" />
-                  <span class="choose__input">white </span>
-                </label>
+                  <label for="blue"
+                    ><input id="blue" type="checkbox" />
+                    <span class="choose__input">blue</span>
+                  </label>
+                </div>
+              </a>
 
-                <label for="blue"
-                  ><input id="blue" type="checkbox" />
-                  <span class="choose__input">blue</span>
-                </label>
-              </div>
-            </a>
+              <a class="choose__link" href="#">
+                <p class="choose__text">choose size</p>
+                <img src="img/product/Vector.png" alt="menu" />
+                <div class="size-box">
+                  <label for="xs">
+                    <input id="xs" type="checkbox" />
+                    <span class="choose__input">xs</span>
+                  </label>
+                  <label for="s">
+                    <input id="s" type="checkbox" />
+                    <span class="choose__input">s</span>
+                  </label>
+                  <label for="m">
+                    <input id="m" type="checkbox" />
+                    <span class="choose__input">m</span>
+                  </label>
+                  <label for="l">
+                    <input id="l" type="checkbox" />
+                    <span class="choose__input">l</span>
+                  </label>
+                </div>
+              </a>
 
-            <a class="choose__link" href="#">
-              <p class="choose__text">choose size</p>
-              <img src="img/product/Vector.png" alt="menu" />
-              <div class="size-box">
-                <label for="xs">
-                  <input id="xs" type="checkbox" />
-                  <span class="choose__input">xs </span>
-                </label>
-                <label for="s">
-                  <input id="s" type="checkbox" />
-                  <span class="choose__input">s</span>
-                </label>
-                <label for="m">
-                  <input id="m" type="checkbox" /><span class="choose__input"
-                    >m
-                  </span>
-                </label>
-                <label for="l">
-                  <input id="l" type="checkbox" /><span class="choose__input"
-                    >l
-                  </span>
-                </label>
-              </div>
-            </a>
+              <a class="choose__link" href="#">
+                <p class="choose__text">quantity</p>
+                <img src="img/product/Vector.png" alt="menu" />
+                <div class="size-box">
+                  <label for="one-unit">
+                    <input id="one-unit" type="checkbox" />
+                    <span class="choose__input">1</span>
+                  </label>
+                  <label for="two-unit">
+                    <input id="two-unit" type="checkbox" />
+                    <span class="choose__input">2</span>
+                  </label>
+                  <label for="three-unit">
+                    <input id="three-unit" type="checkbox" />
+                    <span class="choose__input">3 </span>
+                  </label>
+                  <label for="four-unit">
+                    <input id="four-unit" type="checkbox" />
+                    <span class="choose__input">4 </span>
+                  </label>
+                </div>
+              </a>
+            </div>
 
-            <a class="choose__link" href="#">
-              <p class="choose__text">quantity</p>
-              <img src="img/product/Vector.png" alt="menu" />
-            </a>
-          </div>
-          <div class="product__add">
-            <a class="product-btn" href="#">
-              <img src="img/product/product_add.png" alt="add" />
-              <p class="product__add_text">Add to Cart</p>
-            </a>
-          </div>
-        </div>
+            <div class="product__add">
+              <a class="product-btn" href="cart.html">
+                <img src="img/product/product_add.png" alt="add" />
+                <p class="product__add_text">Add to Cart</p>
+              </a>
+            </div>
+          </form>
+        </article>
       </div>
-    </section>
+    </div>
 
     <div class="item-sec">
       <div class="container">
         <div class="fetured-flex product-flex">
           <div class="fetured pr__featured">
-            <a class="fetured_link" href="#">
+            <a class="fetured_link" href="product.html">
               <img class="fetured__img" src="img/fet4.png" alt="product" />
               <div class="txt-box">
                 <p class="txt-box__heading">ELLERY X M'O CAPSULE</p>
@@ -194,14 +231,14 @@
               </div>
             </a>
             <div class="add-box">
-              <a class="add" href="#">
+              <a class="add" href="cart.html">
                 <img src="img/add.png" alt="add" />
                 <p class="add__text">Add to Cart</p>
               </a>
             </div>
           </div>
           <div class="fetured pr__featured">
-            <a class="fetured_link" href="#">
+            <a class="fetured_link" href="product.html">
               <img class="fetured__img" src="img/fet3.png" alt="product" />
               <div class="txt-box">
                 <p class="txt-box__heading">ELLERY X M'O CAPSULE</p>
@@ -214,14 +251,14 @@
               </div>
             </a>
             <div class="add-box">
-              <a class="add" href="#">
+              <a class="add" href="cart.html">
                 <img src="img/add.png" alt="add" />
                 <p class="add__text">Add to Cart</p>
               </a>
             </div>
           </div>
           <div class="fetured pr__featured">
-            <a class="fetured_link" href="#">
+            <a class="fetured_link" href="product.html">
               <img class="fetured__img" src="img/fet6.png" alt="product" />
               <div class="txt-box">
                 <p class="txt-box__heading">ELLERY X M'O CAPSULE</p>
@@ -234,7 +271,7 @@
               </div>
             </a>
             <div class="add-box">
-              <a class="add" href="#">
+              <a class="add" href="cart.html">
                 <img src="img/add.png" alt="add" />
                 <p class="add__text">Add to Cart</p>
               </a>
@@ -246,18 +283,18 @@
 
     <footer>
       <div class="container">
-        <div class="footer_top">
-          <div class="footer__left">
+        <section class="footer_top">
+          <figure class="footer__left">
             <img class="footer__image" src="img/feedback.png" alt="feedback" />
             <p class="footer__text">
-              “Vestibulum quis porttitor dui! Quisque viverra nunc mi,
-              <span class="footer__text2">a pulvinar purus condimentum</span> “
+              "Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+              <span class="footer__text2">a pulvinar purus condimentum.</span>"
             </p>
-          </div>
+          </figure>
 
           <div class="footer__right">
             <p class="right__heading">SUBSCRIBE</p>
-            <p class="right__text">FOR OUR NEWLETTER AND PROMOTION</p>
+            <p class="rigth__text">FOR OUR NEWLETTER AND PROMOTION</p>
             <div class="button__input">
               <form action="#">
                 <input
@@ -269,15 +306,16 @@
               <a href="#" class="footer__btn">Subscribe</a>
             </div>
           </div>
-        </div>
+        </section>
       </div>
-      <div class="footer_bottom">
+
+      <section class="footer_bottom">
         <div class="container">
           <div class="bottom__content">
             <div class="bottom__left">
               <p class="bottom__text">© 2021 Brand All Rights Reserved.</p>
             </div>
-            <div class="bottom__right">
+            <nav class="bottom__right">
               <a class="bottom__link" href="#"
                 ><i class="fa fa-brands fa-facebook"></i
               ></a>
@@ -290,10 +328,10 @@
               <a class="bottom__link" href="#"
                 ><i class="fa fa-brands fa-twitter"></i
               ></a>
-            </div>
+            </nav>
           </div>
         </div>
-      </div>
+      </section>
     </footer>
   </body>
 </html>
