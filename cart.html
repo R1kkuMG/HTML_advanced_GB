@@ -85,111 +85,127 @@
     <section class="arrivals">
       <div class="container">
         <div class="arrivals-item">
-          <h2 class="arrivals_text">shopping cart</h2>
+          <h2 class="arrivals_text cart-text">shopping cart</h2>
         </div>
       </div>
     </section>
 
-    <section class="shopping-cart container">
-      <div class="left-cart">
-        <div class="item-cart">
-          <a href="product.html"
-            ><img src="img/cart/sh_cart1.png" alt="cart1"
-          /></a>
-          <div class="item-info">
-            <div class="cart-top-info">
-              <h5 class="cart-heading">
-                MANGO PEOPLE <br />
-                T-SHIRT
-              </h5>
-              <a class="cart-close" href="#"
-                ><img src="img/cart/cart_close_h.png" alt="close"
-              /></a>
+    <section class="shopping-cart">
+      <div class="container">
+        <div class="shopping_box">
+          <div class="left-cart">
+            <div class="item-cart">
+              <div class="item-img-box">
+                <a href="product.html"
+                  ><img src="img/cart/sh_cart1.png" alt="cart1"
+                /></a>
+              </div>
+              <div class="item-info">
+                <div class="cart-top-info">
+                  <h5 class="cart-heading">
+                    MANGO PEOPLE <br />
+                    T-SHIRT
+                  </h5>
+                  <a class="cart-close" href="#"
+                    ><img src="img/cart/cart_close_h.png" alt="close"
+                  /></a>
+                </div>
+
+                <div class="cart-bot-info">
+                  <ul class="cart-details">
+                    <li>Price: <span class="cart-price">$300</span></li>
+                    <li>Color: <span class="detail-info">Red</span></li>
+                    <li>Size: <span class="detail-info">Xl</span></li>
+                    <li>
+                      Quantity:
+                      <input
+                        class="detail-input"
+                        type="number"
+                        value="1"
+                        min="1"
+                        max="10"
+                      />
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
 
-            <div class="cart-bot-info">
-              <ul class="cart-details">
-                <li>Price: <span class="cart-price">$300</span></li>
-                <li>Color: <span class="detail-info">Red</span></li>
-                <li>Size: <span class="detail-info">Xl</span></li>
-                <li>
-                  Quantity:
-                  <input
-                    class="detail-input"
-                    type="number"
-                    value="1"
-                    min="1"
-                    max="10"
-                  />
-                </li>
-              </ul>
+            <div class="item-cart">
+              <div class="item-img-box">
+                <a href="product.html"
+                  ><img src="img/cart/sh_cart2.png" alt="cart1"
+                /></a>
+              </div>
+              <div class="item-info">
+                <div class="cart-top-info">
+                  <h5 class="cart-heading">
+                    MANGO PEOPLE <br />
+                    T-SHIRT
+                  </h5>
+                  <a class="cart-close" href="#"
+                    ><img src="img/cart/cart_close_h.png" alt="close"
+                  /></a>
+                </div>
+
+                <div class="cart-bot-info">
+                  <ul class="cart-details">
+                    <li>Price: <span class="cart-price">$300</span></li>
+                    <li>Color: <span class="detail-info">Red</span></li>
+                    <li>Size: <span class="detail-info">Xl</span></li>
+                    <li>
+                      Quantity:
+                      <input
+                        class="detail-input"
+                        type="number"
+                        value="1"
+                        min="1"
+                        max="10"
+                      />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="cart-buttons">
+              <a href="#">clear shopping cart</a>
+              <a href="catalog.html">continue shopping</a>
             </div>
           </div>
-        </div>
 
-        <div class="item-cart">
-          <a href="product.html"
-            ><img src="img/cart/sh_cart2.png" alt="cart1"
-          /></a>
-          <div class="item-info">
-            <div class="cart-top-info">
-              <h5 class="cart-heading">
-                MANGO PEOPLE <br />
-                T-SHIRT
-              </h5>
-              <a class="cart-close" href="#"
-                ><img src="img/cart/cart_close_h.png" alt="close"
-              /></a>
+          <div class="right-form">
+            <div class="input-form-box">
+              <form class="form-input">
+                <p class="form-heading">shipping address</p>
+                <input class="cart-input" type="text" placeholder="City" />
+                <input class="cart-input" type="text" placeholder="State" />
+                <input
+                  class="cart-input"
+                  type="text"
+                  placeholder="Postcode / Zip"
+                />
+              </form>
+              <div class="form-quote">
+                <a href="#">get a quote</a>
+              </div>
             </div>
-
-            <div class="cart-bot-info">
-              <ul class="cart-details">
-                <li>Price: <span class="cart-price">$300</span></li>
-                <li>Color: <span class="detail-info">Red</span></li>
-                <li>Size: <span class="detail-info">Xl</span></li>
-                <li>
-                  Quantity:
-                  <input
-                    class="detail-input"
-                    type="number"
-                    value="1"
-                    min="1"
-                    max="10"
-                  />
-                </li>
-              </ul>
-            </div>
+            <form class="form-total">
+              <div class="form-total-box">
+                <p class="sub-total">
+                  sub total &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp $900
+                </p>
+                <p class="grand-total">
+                  grand total &nbsp &nbsp &nbsp &nbsp <span>$900</span>
+                </p>
+                <img src="img/cart/cart-line.png" alt="line" />
+                <div class="total-btn">
+                  <a href="#">proceed to checkout</a>
+                </div>
+              </div>
+            </form>
           </div>
         </div>
-
-        <div class="cart-buttons">
-          <a href="#">clear shopping cart</a>
-          <a href="catalog.html">continue shopping</a>
-        </div>
-      </div>
-
-      <div class="right-form">
-        <form class="form-input">
-          <p class="form-heading">shipping address</p>
-          <input class="cart-input" type="text" placeholder="City" />
-          <input class="cart-input" type="text" placeholder="State" />
-          <input class="cart-input" type="text" placeholder="Postcode / Zip" />
-        </form>
-        <div class="form-quote">
-          <a href="#">get a quote</a>
-        </div>
-        <form class="form-total">
-          <p class="sub-total">
-            sub total &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp $900
-          </p>
-          <p class="grand-total">
-            grand total &nbsp &nbsp &nbsp &nbsp <span>$900</span>
-          </p>
-          <img src="img/cart/cart-line.png" alt="line" />
-          <div class="total-btn">
-            <a href="#">proceed to checkout</a>
-          </div>
-        </form>
       </div>
     </section>
 
